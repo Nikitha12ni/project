@@ -3,6 +3,7 @@ import './App.css';
 import Image from "./assets/hi.jpg";
 import Component2 from './components/Component2';
 import Component1 from './components/Component1';
+import Component3 from "./components/Component3";
 function App() {
   var text;
   const x=10;
@@ -24,7 +25,7 @@ function App() {
 
   <Component2 textValue={text}/>
   <Component2 onceMore={y}/>
-
+  <Component3/>
   </div>;
       
 }
