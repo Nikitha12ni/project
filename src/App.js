@@ -1,6 +1,7 @@
 
 import './App.css';
 import Image from "./assets/hi.jpg";
+import Component1 from './components/Component1';
 
 function App() {
   var text;
@@ -18,6 +19,7 @@ function App() {
   <img  src={Image} alt="imfg" width="200px"/>
   <h2>{text}</h2>
   <h2>{x >= 10 ? "greater":"lesser"}</h2>
+  <Component1/>
   </div>;
       
 }
