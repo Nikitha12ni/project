@@ -1,11 +1,12 @@
 
 import './App.css';
 import Image from "./assets/hi.jpg";
+import Component2 from './components/Component2';
 import Component1 from './components/Component1';
-
 function App() {
   var text;
   const x=10;
+  const y=20;
   if(x === 10){
   text="equal";
   }
@@ -20,6 +21,10 @@ function App() {
   <h2>{text}</h2>
   <h2>{x >= 10 ? "greater":"lesser"}</h2>
   <Component1 xValue={x}/>
+
+  <Component2 textValue={text}/>
+  <Component2 onceMore={y}/>
+
   </div>;
       
 }
