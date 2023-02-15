@@ -19,7 +19,7 @@ function App() {
   <img  src={Image} alt="imfg" width="200px"/>
   <h2>{text}</h2>
   <h2>{x >= 10 ? "greater":"lesser"}</h2>
-  <Component1/>
+  <Component1 xValue={x}/>
   </div>;
       
 }
