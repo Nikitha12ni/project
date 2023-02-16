@@ -22,7 +22,7 @@ function App() {
   <h2>{text}</h2>
   <h2>{x >= 10 ? "greater":"lesser"}</h2>
   <Component1 xValue={x}/>
-
+<Component1/>
   <Component2 textValue={text}/>
   <Component2 onceMore={y}/>
   <Component3/>
